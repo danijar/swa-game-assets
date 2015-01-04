@@ -31,8 +31,11 @@ Code quality
 - [ ] Return self instead of nothing for method chaining
 - [ ] Use class side methods for constants
 - [ ] Move dependent on step time
+<<<<<<< HEAD
 
 Bugs
 ----
 
 - [ ] VelocityY would set 0 if dynamic bodies collide vertical
+- [ ] Catch edge cases, e.g. load empty level, count number of unrecognized
+      symbols, ...
