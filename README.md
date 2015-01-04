@@ -6,23 +6,23 @@ Major features
 
 - [ ] Working menu including keyboard support
 - [x] Collectable coins
-- [ ] Door between levels
-- [ ] Screen between levels showing statistics, i.e. coins, health, ...
-- [ ] Load levels from file
-- [ ] Multiple levels
+- [x] Door between levels
+- [x] Screen between levels showing statistics, i.e. coins, health, ...
+- [x] Load levels from file
+- [x] Multiple levels
 
 Nice to have
 ------------
 
-- [ ] Scan directory and add textures automatically
+- [x] Scan directory and add textures automatically
 - [ ] Times animations while walking
 - [ ] Way to attack enemies
 
 Code structure
 --------------
 
-- [ ] Ask chair where to put helper functions like createUniversalPath
-- [ ] Move set of pressed keys into level and provide isKeyPressed
+- [ ] Ask chair where to put helper functions like `createUniversalPath`
+- [ ] Move set of pressed keys into window and provide `isKeyPressed`
 
 Code quality
 ------------
