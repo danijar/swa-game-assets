@@ -31,3 +31,8 @@ Code quality
 - [ ] Return self instead of nothing for method chaining
 - [ ] Use class side methods for constants
 - [ ] Move dependent on step time
+
+Bugs
+----
+
+- [ ] VelocityY would set 0 if dynamic bodies collide vertical
