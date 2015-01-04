@@ -1,0 +1,14 @@
+# Squeak internals
+/*
+
+# Files
+!/.gitignore
+!/.gitattributes
+!/todos.md
+
+# Our assets
+!/textures/
+!/levels/
+
+# Windows
+Thumbs.db

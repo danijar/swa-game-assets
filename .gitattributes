@@ -1,0 +1,6 @@
+# Line endings
+* text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
