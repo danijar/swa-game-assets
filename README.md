@@ -4,19 +4,23 @@ Todos
 Major features
 --------------
 
-- [ ] Working menu including keyboard support
+- [x] Working menu including keyboard support
 - [x] Collectable coins
 - [x] Door between levels
-- [x] Screen between levels showing statistics, i.e. coins, health, ...
+- [ ] Screen between levels showing statistics
 - [x] Load levels from file
 - [x] Multiple levels
+- [ ] Interface displaying health
+- [ ] Way to attack enemies
 
 Nice to have
 ------------
 
 - [x] Scan directory and add textures automatically
-- [ ] Times animations while walking
-- [ ] Way to attack enemies
+- [ ] Timed animations while walking
+- [ ] Potion to scare enemies so they run away (new behavior)
+- [ ] Potion to make you fly for a time (fly behavior)
+- [ ] Flying enemies
 
 Code structure
 --------------
@@ -31,11 +35,12 @@ Code quality
 - [ ] Return self instead of nothing for method chaining
 - [ ] Use class side methods for constants
 - [ ] Move dependent on step time
-<<<<<<< HEAD
+- [ ] Consistently have negative velocity up
+- [ ] Force subclass responsibility
 
 Bugs
 ----
 
-- [ ] VelocityY would set 0 if dynamic bodies collide vertical
+- [ ] Stop in air when something hits you from top
 - [ ] Catch edge cases, e.g. load empty level, count number of unrecognized
       symbols, ...
