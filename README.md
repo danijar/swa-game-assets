@@ -23,8 +23,10 @@ Nice to have
 - [ ] Potion to scare enemies so they run away (new behavior)
 - [ ] Potion to make you fly for a time (fly behavior)
 - [ ] Flying enemies
-- [ ] Trampoline
+- [x] Trampoline
 - [ ] Fall damage (character collision with speed above limit)
+- [ ] Use background morph for repeating background
+- [ ] Parallax background
 
 Code quality
 ------------
@@ -44,3 +46,4 @@ Bugs
 - [ ] Catch edge cases, e.g. load empty level, count number of unrecognized
       symbols, ...
 - [ ] Remove mass from static bodies
+- [ ] Prevent selecting button text, dispatch clicks on text upwards to button
