@@ -48,6 +48,7 @@ Coding style
 - [ ] Consistently have negative velocity up
 - [ ] Correct parameter names in collision handles
 - [ ] Rename `World` to `Level`
+- [ ] Combine character's `heading` and `direction` and use symbol values
 
 Bugs
 ----
