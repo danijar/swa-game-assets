@@ -12,15 +12,6 @@ Major features
 - [x] Multiple levels
 - [x] Way to attack enemies
 
-Structure
----------
-
-- [ ] Separate `World` from `LevelScreen`
-- [ ] Add delta time and base speeds on it
-- [ ] Input as behavior
-- [ ] Correct y axis in velocity calculation
-- [ ] Add level loader
-
 Nice to have
 ------------
 
@@ -43,12 +34,18 @@ Easy features
 Code quality
 ------------
 
+- [ ] Separate `World` from `LevelScreen`
+- [ ] Add delta time and move based on it
+- [ ] Input as behavior
+- [ ] Add level loader
+
+Coding style
+------------
+
 - [ ] Use built in intersect function
 - [ ] Return self instead of nothing for method chaining
 - [ ] Use class side methods for constants
-- [ ] Move depending on step time
 - [ ] Consistently have negative velocity up
-- [ ] Force subclass responsibility
 - [ ] Correct parameter names in collision handles
 - [ ] Rename `World` to `Level`
 
