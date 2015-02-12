@@ -10,34 +10,45 @@ Major features
 - [x] Screen between levels showing statistics
 - [x] Load levels from file
 - [x] Multiple levels
-- [ ] Interface displaying health
 - [x] Way to attack enemies
 
 Nice to have
 ------------
 
 - [x] Scan directory and add textures automatically
-- [x] Projectile
+- [x] Trampoline
+- [ ] Interface displaying health
+- [ ] Parallax background
 - [ ] Timed animations while walking
+
+Easy features
+-------------
+
+- [x] Projectile
+- [ ] Fall damage (character collision with speed above limit)
+- [ ] Flying enemies
 - [ ] Ladders (plain body that has isGround property, up key walks upwards)
 - [ ] Potion to scare enemies so they run away (new behavior)
 - [ ] Potion to make you fly for a time (fly behavior)
-- [ ] Flying enemies
-- [x] Trampoline
-- [ ] Fall damage (character collision with speed above limit)
-- [ ] Use background morph for repeating background
-- [ ] Parallax background
 
 Code quality
+------------
+
+- [ ] Separate `World` from `LevelScreen`
+- [ ] Add delta time and move based on it
+- [ ] Input as behavior
+- [ ] Add level loader
+
+Coding style
 ------------
 
 - [ ] Use built in intersect function
 - [ ] Return self instead of nothing for method chaining
 - [ ] Use class side methods for constants
-- [ ] Move depending on step time
 - [ ] Consistently have negative velocity up
-- [ ] Force subclass responsibility
 - [ ] Correct parameter names in collision handles
+- [ ] Rename `World` to `Level`
+- [ ] Combine character's `heading` and `direction` and use symbol values
 
 Bugs
 ----
